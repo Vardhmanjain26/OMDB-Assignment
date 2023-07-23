@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie Guide App</title>
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="search-container">
+        <input type="text" placeholder="Enter movie name heree..." id="movie-name"value="elon musk"/>
+        <button id="search-btn">Search</button>
+      </div>
+
+      <!-- Search list -->
+      <div id="search-list"></div>
+
+      <!-- Movie list -->
+      <div id="result"></div>
+
+      <!-- Pagination -->
+      <div class="pagination">
+        <button id="prev-btn">Previous</button>
+        <div class="page-numbers" id="page-numbers"></div>
+        <button id="next-btn">Next</button>
+      </div>
+    </div>
+
+    <!-- <script src="key.js"></script> -->
+    <script src="script.js"></script>
+  </body>
+</html>
