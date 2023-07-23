@@ -1,1 +1,1 @@
-# OMDB-Assignment
+i tried this Online Movie Database API integration assignment . I implemented most of the features , but stuck in few like pagination etc. I am using youtube as a learning resource for now. I will update the few features that are left. 
